@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:linear-gradient(to right,#032030,#022b42,#003554,#004d74,#006494,#006da4);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 30px;
+}
+.container{
+max-width: 400px;
+margin: 100px auto;
+width: 300px;
+text-align: center;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px #032030;
+}
+h1{
+  font-size: 20px;
+  color: #032030;
+}
+
+
+input[type="text"]{
+  width: 95%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #032030;
+}
+button{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+button:hover{
+  background-color: #0056b3;
+}
+#result{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+@keyframes  fadeIn{
+0%{
+  opacity: 0;
+  transform: translateY(20px);
+
+}
+100%{
+  opacity: 1;
+  transform: translateY(0);
+
+}
+  
+}
+.fadeIn{
+  animation: fadeIn o.5s ease-in-out;
+}
